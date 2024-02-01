@@ -1,0 +1,77 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* src/index.css */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+.list-group-item {
+  border: none;
+  margin-bottom: 20px; /* Added margin between list items */
+  width: 90%;
+  overflow: hidden;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-box {
+  background: linear-gradient(to right, #1a1a1a, #333);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-right: 10px; /* Added margin between boxes */
+  width: calc(50% - 10px); /* Set width for two boxes in a row with margin */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.show-box:last-child {
+  margin-right: 0; /* Remove right margin from the last box in a row */
+}
+
+.show-box a {
+  color: #fff;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  width: 20%;
+  /* height: 300px; */
+  margin: 40px 40px 0px 55px;
+  /* display: inline-block; */
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
